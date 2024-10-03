@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DailyLeet.iml" filepath="$PROJECT_DIR$/.idea/DailyLeet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo.daily/SumDivisibleByP/SumDivisibleByP.iml" filepath="$PROJECT_DIR$/algo.daily/SumDivisibleByP/SumDivisibleByP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo.daily/algo.daily.iml" filepath="$PROJECT_DIR$/algo.daily/algo.daily.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo.search/algo.search.iml" filepath="$PROJECT_DIR$/algo.search/algo.search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algo.search/squareRoot/squareRoot.iml" filepath="$PROJECT_DIR$/algo.search/squareRoot/squareRoot.iml" />
+    </modules>
+  </component>
+</project>
