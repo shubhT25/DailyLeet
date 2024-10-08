@@ -74,11 +74,14 @@ public class SumDivisibleByP {
         int currSumMod = 0;
         for(int i=0; i<nums.length; i++)
         {
+//            System.out.println("Mod = " + mod);
             currSumMod = (currSumMod+nums[i])%p;
             int neededMod = (currSumMod - mod + p)%p;
+            System.out.println("CurrentSumMod = " + currSumMod);
+            System.out.println("NeedSumMod = " + neededMod);
             if(hm.containsKey(neededMod))
-                ans = Math.min(ans, i-hm.get(neededMod));
-            hm.put(currSumMod, i);
+                ans = Math.min(ans, i-hm.get(neededMod));//ans=1
+            hm.put(currSumMod, i); //{0: -1, 3: 0, 4: 1, 2: 2, 4:3)}
         }
         return ans==nums.length ? -1 : ans;
     }
